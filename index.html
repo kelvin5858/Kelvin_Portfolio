@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Zaw Naing Win (Kelvin) — Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header -->
@@ -12,12 +15,14 @@
     <div class="wrap header-inner">
       <div class="brand">
         <h1>Zaw Naing Win <span class="nickname">(Kelvin)</span></h1>
-        <p class="role">Web Developer | NCC Level 5 Diploma in Computing</p>
+        <p class="role">Web Developer <span class="dot">•</span> NCC Level 5 Diploma</p>
       </div>
       <button id="nav-toggle" aria-label="Menu">☰</button>
       <nav id="main-nav" class="main-nav">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#github-live">GitHub Live</a>
+        <a href="#ideas">Ideas</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -28,7 +33,7 @@
     <div class="wrap hero-inner">
       <div class="hero-text">
         <h2>Hello, I’m <span class="highlight">Kelvin</span></h2>
-        <p>A passionate web developer with experience in building responsive websites, payment platforms, and POS systems. I create solutions with clean design and smooth user experiences.</p>
+        <p>A passionate web developer focused on building beautiful, accessible, and high-performance web experiences. I love solving real-world problems with code and design.</p>
         <div class="hero-actions">
           <a href="#projects" class="btn">🚀 View My Work</a>
           <a href="#contact" class="btn ghost">📩 Contact Me</a>
@@ -42,7 +47,8 @@
             <li><strong>Education:</strong> NCC Level 5 Diploma in Computing, M.S.T College</li>
             <li><strong>Phone:</strong> <a href="tel:+959967792009">09967792009</a> (Viber/Telegram)</li>
             <li><strong>Email:</strong> <a href="mailto:kelvin786666@gmail.com">kelvin786666@gmail.com</a></li>
-
+            <li><strong>Location:</strong> Yangon, Myanmar</li>
+            <li><strong>Languages:</strong> English, Burmese</li>
           </ul>
         </div>
       </div>
@@ -54,6 +60,15 @@
     <div class="wrap">
       <h2>✨ About Me</h2>
       <p>I specialize in creating user-friendly websites with a focus on premium UI/UX. My skills include HTML, CSS, JavaScript, PHP, and MySQL. I enjoy transforming ideas into real, working solutions.</p>
+      <ul class="skills-list">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>PHP & MySQL</li>
+        <li>Responsive Design</li>
+        <li>UI/UX Design</li>
+        <li>API Integration</li>
+        <li>Version Control (Git)</li>
+      </ul>
     </div>
   </section>
 
@@ -83,6 +98,30 @@
     </div>
   </section>
 
+  <!-- GitHub Live Projects -->
+  <section id="github-live" class="section">
+    <div class="wrap">
+      <h2>🌐 GitHub Live Projects</h2>
+      <div class="projects-grid">
+        <article class="project glass">
+          <h3>Portfolio Website (This Site)</h3>
+          <p>Open-source code for this portfolio. Explore how it’s built and suggest improvements!</p>
+          <p><a href="https://github.com/kelvin5858/Kelvin_Portfolio" target="_blank">🔗 View on GitHub</a></p>
+        </article>
+        <article class="project glass">
+          <h3>Mini Blog Platform</h3>
+          <p>Simple blog platform with Markdown support and live preview. Built with PHP & JS.</p>
+          <p><a href="https://github.com/kelvin5858/mini-blog" target="_blank">🔗 View on GitHub</a></p>
+        </article>
+        <article class="project glass">
+          <h3>Weather App</h3>
+          <p>Weather dashboard using OpenWeatherMap API. Responsive and mobile-friendly.</p>
+          <p><a href="https://github.com/kelvin5858/weather-app" target="_blank">🔗 View on GitHub</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact -->
   <section id="contact" class="section">
     <div class="wrap">
@@ -95,13 +134,37 @@
         </div>
         <div class="contact-card glass">
           <h4>Email</h4>
-          <p><a href="mailto:kelvin@example.com">kelvin@example.com</a></p>
+          <p><a href="mailto:kelvin786666@gmail.com">kelvin786666@gmail.com</a></p>
         </div>
         <div class="contact-card glass">
           <h4>GitHub</h4>
-          <p><a href="https://github.com/kelvin" target="_blank">github.com/kelvin</a></p>
+          <p><a href="https://github.com/kelvin5858" target="_blank">github.com/kelvin5858</a></p>
+        </div>
+        <div class="contact-card glass">
+          <h4>LinkedIn</h4>
+          <p><a href="https://linkedin.com/in/kelvin5858" target="_blank">linkedin.com/in/kelvin5858</a></p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Ideas & Features V2 -->
+  <section id="ideas" class="section alt">
+    <div class="wrap">
+      <h2>💡 Ideas & Features for V2</h2>
+      <ul class="ideas-list">
+        <li>🌙 Dark/Light mode toggle</li>
+        <li>📝 Blog section for sharing articles</li>
+        <li>📊 Interactive project stats (tech stack, stars, forks)</li>
+        <li>🎨 Theme customizer (color palette switcher)</li>
+        <li>🗂️ Downloadable CV/Resume</li>
+        <li>📅 Timeline of experience & education</li>
+        <li>💬 Testimonials & client feedback</li>
+        <li>🔍 Advanced project filtering/search</li>
+        <li>🌐 Multi-language support</li>
+        <li>⚡ Performance improvements & accessibility enhancements</li>
+      </ul>
+      <p class="ideas-note">Have more ideas? <a href="#contact">Contact me</a> or <a href="https://github.com/kelvin5858/Kelvin_Portfolio/issues" target="_blank">open an issue</a>!</p>
     </div>
   </section>
 
@@ -109,6 +172,13 @@
   <footer class="site-footer">
     <div class="wrap">
       <p>&copy; <span id="year"></span> Kelvin (Zaw Naing Win). All rights reserved.</p>
+      <p class="footer-links">
+        <a href="#about">About</a> ·
+        <a href="#projects">Projects</a> ·
+        <a href="#github-live">GitHub Live</a> ·
+        <a href="#ideas">Ideas</a> ·
+        <a href="#contact">Contact</a>
+      </p>
     </div>
   </footer>
 
